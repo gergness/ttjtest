@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="hello" timestamp="2020-03-09T15:27:31Z" hostname="stp-guest-10-169-128-126.wireless.umn.edu" tests="1" skipped="0" failures="0" errors="1" time="0.008">
+    <testcase time="0.00799999999998136" classname="hello" name="hello">
+      <error type="error" message="Error with traceback (@test-hello.R#2)">Error with traceback
+[1mBacktrace:[22m
+[90m 1. [39mtestthat::expect_equal(hello(), 0)
+[90m 4. [39mttjtest::hello()</error>
+    </testcase>
+  </testsuite>
+</testsuites>
